@@ -71,7 +71,7 @@ public class GitCommandExecuter {
 	    	String commitMessage="first commit"+timestamp.toGMTString();
 	    	command+="git commit -m"+"\""+commitMessage+"\""+"\n";
 
-	    	command +="git remote add poi https://jaspal29:JAS0000pal@github.com/jaspal29/shy.git \n";
+	    	command +="git remote add poi https://jaspal29:JAS0000pal@github.com/jaspal29/ni.git \n";
 	    	command+="git push poi master";
 
 	    	BufferedWriter bw =new BufferedWriter(new FileWriter(file));
